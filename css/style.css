@@ -102,6 +102,11 @@ footer h3 {
   float: left;
 }
 
+h1 {
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
 @media (max-width: 1086px){
   .nav-item {
     text-align: center;
