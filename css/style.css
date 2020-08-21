@@ -96,15 +96,10 @@ footer h3 {
   height: 50px;
 }
 
-.navbar p {
-  color: #FFFFFF;
-  font-size: 20px;
-  float: left;
-}
-
 h1 {
   color: #FFFFFF;
   font-size: 20px;
+  font-weight: 400;
 }
 
 @media (max-width: 1086px){
