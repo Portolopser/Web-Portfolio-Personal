@@ -102,6 +102,13 @@ h1 {
   font-weight: 400;
 }
 
+.personal-projects .btn:hover,
+footer .btn:hover {
+  background-color: #FFFFFF;
+  transition: ease 1s;
+  border: 1px solid #000000;
+}
+
 @media (max-width: 1086px){
   .nav-item {
     text-align: center;
