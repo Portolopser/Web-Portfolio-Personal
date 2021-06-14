@@ -12,28 +12,17 @@ body {
   color: #505962;
 }
 
-.carousel-inner img {
-  width: 100%;
-  height: 100%;
+h1 {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 400;
 }
 
-.btn-purple {
-  border-color: #8366B0;
-  background-color: #8366B0;
-  color: white;
-  margin: 1rem;
-}
-.btn-purple:hover,
-.btn-purple:focus {
-  border-color: #594781;
-  background-color: #594781;
-  color: white;
+.navbar-brand img {
+  height: 50px;
 }
 
-.feature img {
-  padding: 1.5rem;
-}
-
+/*Footer*/
 footer {
   background-color: #40474e;
   background-size: cover;
@@ -44,21 +33,18 @@ footer .row {
   padding: 1.5rem 0 4rem;
   line-height: 2rem;
 }
+
 footer img {
   margin: 1.5rem 0;
   height: 150px;
 }
+
 footer h3 {
   margin: 1.5rem 0;
 }
+/*Fin Footer*/
 
-/*-- Extra Bootstrap Column Padding --*/
-
-[class*="col-"] {
-  padding: 1rem;
-}
-
-
+/*Colores*/
 .webcolor {
   background-color: #9A4F4F;
 }
@@ -71,35 +57,57 @@ footer h3 {
   color: #FFFFFF;
 }
 
+.bg-white {
+  background-color: #FFFFFF;
+}
+/*Fin Colores*/
+
+/*Utilidades*/
 .mb0 {
   margin-bottom: 0;
-}
-
-#features img {
-  height: 200px;
-
 }
 
 .separador {
   border: 1px solid #e9ecef;
 }
+/*Fin utilidades*/
+
+/*Carrusel*/
+.projects-container {
+  background-color: #e9ecef;
+}
+
+#projects-carousel {
+  max-width: 50%;
+  margin: 0 auto;
+  padding: 4rem 0rem;
+  background-color: #e9ecef;
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("wp.png");
+}
+/*Fin Carrusel*/
+
+.feature img {
+  padding: 1.5rem;
+}
+
+#features img {
+  height: 200px;
+}
 
 #languages-and-technologies img {
   height: 120px;
-}
-
-.bg-white{
-  background-color: #FFFFFF;
-}
-
-.navbar-brand img {
-  height: 50px;
-}
-
-h1 {
-  color: #FFFFFF;
-  font-size: 20px;
-  font-weight: 400;
 }
 
 .personal-projects .btn:hover,
@@ -109,14 +117,14 @@ footer .btn:hover {
   border: 1px solid #000000;
 }
 
-@media (max-width: 1086px){
+@media (max-width: 1086px) {
   .nav-item {
     text-align: center;
     font-size: 14px;
   }
 }
 
-@media (max-width: 764px){
+@media (max-width: 768px) {
   .carousel {
     margin-top: 3em;
   }
@@ -132,7 +140,22 @@ footer .btn:hover {
   }
 }
 
-@media (max-width: 378px){
+@media (max-width: 480px) {
+  [class*="col-"] {
+    padding: 1rem 2rem;
+  }
+
+  #projects-carousel {
+    max-width: 100%;
+    padding: 2rem;
+  }
+
+  #projects-carousel p {
+    text-align: left;
+  }
+}
+
+@media (max-width: 375px) {
   #features img {
     height: 180px;
   }
